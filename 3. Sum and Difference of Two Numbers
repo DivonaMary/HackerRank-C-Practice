@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int a, b,sum1,sub1;
+    float c,d,sum2,sub2;
+    scanf("%d %d", &a,&b);
+    scanf("\n%f %f", &c,&d);
+    sum1=a+b;
+    sub1=a-b;
+    sum2=c+d;
+    sub2=c-d;
+	printf("%d %d", sum1,sub1);
+    printf("\n%.1f %.1f", sum2,sub2);
+    
+    return 0;
+}
